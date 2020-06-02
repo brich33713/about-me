@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  
+}
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  height: 25px;
+  background-image: url(image/type_3.png);
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  font-size: 48px;
+}
+
+#mainImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+
+p, li {
+  font-size: 16px;
+}
+
+li {
+  list-style-position: inside;
+}
+
+ol {
+  padding-left: 0;
+  text-align: center;
+}
+
+p {
+  padding: 0 25px;
+  text-align: left;
+}
+
+#tagline {
+  padding: 0 150px;
+  text-align: center;
+  margin: 0 0 25px 0;
+  font-style: italic;
+}
+
+#interests {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Link styling psuedo code */
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: black;  }
